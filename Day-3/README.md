@@ -1,4 +1,4 @@
-# Day 03 - Introduction to AI Agents and LangChain
+# Day-3 - Introduction to AI Agents and LangChain
 
 ## Topics Covered
 
