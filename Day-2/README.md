@@ -1,4 +1,4 @@
-# Day 02 - Prompts and Memory
+# Day-2 - Prompts and Memory
 
 ## Topics
 - System Prompts
