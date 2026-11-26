@@ -1,4 +1,4 @@
-# Day 01 - LLM Fundamentals
+# Day-1 - LLM Fundamentals
 
 ## Topics
 - Introduction to LLMs
