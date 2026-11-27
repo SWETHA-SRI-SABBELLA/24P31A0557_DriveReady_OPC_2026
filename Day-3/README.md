@@ -80,12 +80,30 @@ Keep the improved prompt and model identifier unchanged, set temperature to 1.0,
 
 Fill these rows with actual Colab or terminal results; no live scores have been supplied for this submission draft.
 
-| Run | Prompt | Temperature | Passed / 10 | Pass rate |
-| --- | --- | ---: | --- | --- |
-| Baseline | Original | 0.3 | Pending | Pending |
-| Improved | V2 | 0.3 | Pending | Pending |
-| High temperature 1 | V2 | 1.0 | Pending | Pending |
-| High temperature 2 | V2 | 1.0 | Pending | Pending |
+### Live Experiment Results
+
+| Run | Prompt | Temperature | Passed / 10 | Pass Rate |
+|---|---|---:|---:|---:|
+| Baseline | Original | 0.3 | 9/10 | 90% |
+| Improved | V2 | 0.3 | 7/10 | 70% |
+| High Temperature Run 1 | V2 | 1.0 | 8/10 | 80% |
+| High Temperature Run 2 | V2 | 1.0 | 8/10 | 80% |
+
+### Observations
+
+- The modified prompt decreased the keyword pass rate by 20 percentage points.
+- Both high-temperature experiments achieved an 80% pass rate, although their generated responses differed.
+- Some correct answers failed because of Unicode whitespace and alternative wording.
+- Keyword matching alone cannot guarantee factual correctness.
+- Some responses introduced unsupported ordering and delivery information.
+- Regression testing is important after every prompt modification.
+
+### Verification
+
+- Day 3 assessment: 16/16.
+- Python pricing and menu availability tests: 6/6 passed.
+- LangChain agent demonstration: successful response recorded.
+- All four experiment outputs are available in the submitted Colab notebook.
 
 - Prompt improvement in percentage points: pending actual results.
 - Differences between the two high-temperature runs: pending actual results.
