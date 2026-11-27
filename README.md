@@ -25,7 +25,7 @@ The system will be developed progressively throughout the training program.
 | Day | Topic | Status |
 |---|---|---|
 | Day 1 | LLM Fundamentals and API Calls | Completed |
-| Day 2 | Prompts, Memory and Python | Upcoming |
+| Day 2 | Prompts, Memory and Python | Completed |
 | Day 3 | Introduction to AI Agents and LangChain | Upcoming |
 
 ## Repository Contents
